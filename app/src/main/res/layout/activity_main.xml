@@ -8,19 +8,23 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tv_Expression"
+        android:id="@+id/tv_expression"
         android:layout_width="match_parent"
         android:layout_height="80sp"
         android:textColor="@color/numberButton"
         android:gravity="end"
-        android:maxLines="1"/>
+        android:ellipsize="start"
+        android:textSize="40sp"
+        android:singleLine="true"/>
 
     <TextView
-        android:id="@+id/tv_Result"
+        android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="100sp"
         android:textColor="@color/numberButton"
         android:gravity="end"
+        android:textSize="30sp"
+        android:ellipsize="end"
         android:maxLines="1"/>
 
     <LinearLayout
